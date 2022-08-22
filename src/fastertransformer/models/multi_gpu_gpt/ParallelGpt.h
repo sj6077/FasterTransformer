@@ -207,7 +207,7 @@ public:
                 std::shared_ptr<AbstractCustomComm> custom_all_reduce_comm   = nullptr,
                 int                                 enable_custom_all_reduce = 0,
                 bool                                remove_padding           = true,
-                float                               shared_contexts_ratio    = 1.0f);
+                float                               shared_contexts_ratio    = 0.0f);
 
     ParallelGpt(ParallelGpt<T> const& gpt);
 
